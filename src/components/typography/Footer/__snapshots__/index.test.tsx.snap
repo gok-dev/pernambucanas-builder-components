@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> shold render the heading 1`] = `
+.c0 {
+  font-weight: 400;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.c0 a {
+  color: #2485EA;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.c0 a:hover {
+  color: #1C67B8;
+}
+
+.c0 mark {
+  border-radius: 3px;
+  padding: 3px 4px;
+}
+
+<p
+  class="c0"
+  size="14"
+/>
+`;
