@@ -12,19 +12,15 @@ export const ButtonComponent: React.FC<ButtonProps> = ({
   style,
   action
 }) => (
-  <>
-    <Button
-      mode={mode}
-      size={size}
-      disabled={disabled}
-      icon={icon}
-      style={style}
-      action={action}
-    >
-      <p>{icon && icon}</p>{' '}
-      <Body color={mode === 'primary' ? 'onContrast' : 'highlight'}>
-        {title}
-      </Body>
-    </Button>
-  </>
+  <Button
+    mode={mode}
+    size={size}
+    disabled={disabled}
+    icon={icon}
+    style={style}
+    action={action}
+  >
+    <p>{icon && icon}</p>{' '}
+    <Body color={mode === 'primary' ? 'onContrast' : 'highlight'}>{title}</Body>
+  </Button>
 )

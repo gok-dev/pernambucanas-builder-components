@@ -1,6 +1,7 @@
 import styled, { css } from 'styled-components'
 import { typographyColors, typographyMargins, typographyMark } from '../styles'
 import { IText } from './types'
+import theme from 'styles/theme'
 
 export const P = styled.p<IText>`
   font-weight: 400;
@@ -36,22 +37,22 @@ export const P = styled.p<IText>`
   ${props =>
     props.onClick &&
     css`
-      color: ${props => props.theme.colors.text?.highlight};
+      color: ${theme.colors.text?.highlight};
       cursor: pointer;
       transition: all 0.3s;
 
       &:hover {
-        color: ${props => props.theme.colors.contrast.dark};
+        color: ${theme.colors.contrast.dark};
       }
     `}
 
   a {
-    color: ${props => props.theme.colors.text?.highlight};
+    color: ${theme.colors.text?.highlight};
     text-decoration: none;
     transition: all 0.3s;
 
     &:hover {
-      color: ${props => props.theme.colors.contrast.dark};
+      color: ${theme.colors.contrast.dark};
     }
   }
 
