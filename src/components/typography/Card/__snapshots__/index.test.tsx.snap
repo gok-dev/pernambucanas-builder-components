@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> shold render 1`] = `
+.c0 {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  width: 100%;
+  min-height: 100px;
+  padding: 0px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<article
+  class="c0"
+/>
+`;
