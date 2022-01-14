@@ -73,11 +73,13 @@
     "dist"
   ],
   "dependencies": {
+    "@types/react-collapse": "^5.0.1",
     "@types/react-color": "^3.0.6",
     "@types/styled-components": "^5.1.18",
     "jest": "^27.4.5",
-    "react-grid-system": "^8.0.1",
+    "react-collapse": "^5.1.1",
     "react-color": "^2.19.3",
+    "react-grid-system": "^8.0.1",
     "styled-components": "^5.3.3"
   }
 }
