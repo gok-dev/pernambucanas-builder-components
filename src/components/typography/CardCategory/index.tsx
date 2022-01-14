@@ -1,8 +1,8 @@
 import React from 'react'
 import { ICardCategory } from './types'
 import { Card } from '../Card'
-import Typography from 'components/Typography'
-import { Forward } from '../Icons'
+import Typography from 'components/typography'
+import { Forward } from '../../Icons/Forward'
 import * as S from './styles'
 import { useLayout } from '../../../hooks/layout'
 
@@ -19,7 +19,7 @@ export const CardCategory: React.FC<ICardCategory> = props => {
     >
       <S.Container>
         {props.withIcon && (
-          <>
+          <div>
             <S.Icon>{props.icon}</S.Icon>
             <S.Title maxWidth={110}>
               <Typography.Heading
@@ -30,10 +30,10 @@ export const CardCategory: React.FC<ICardCategory> = props => {
                 {props.title}
               </Typography.Heading>
             </S.Title>
-          </>
+            </div>
         )}
         {props.withImage && (
-          <>
+          <div>
             <S.Image radius={16} largeImage={props.largeImage}>
               {props.image}
             </S.Image>
@@ -63,7 +63,7 @@ export const CardCategory: React.FC<ICardCategory> = props => {
                 <Forward size={9} />
               </S.LargeTitle>
             )}
-          </>
+          </div>
         )}
       </S.Container>
     </Card>

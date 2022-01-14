@@ -2,10 +2,11 @@ import React from 'react'
 import { useState } from 'react'
 import { useTheme } from 'styled-components'
 import { ICardProduct } from './types'
-import Typography from 'components/Typography'
+import Typography from 'components/typography'
 import { currencyFormatter } from '../../../utils/currencyFormatter'
 import * as S from './styles'
-import { Heart, HeartFilled } from '../Icons'
+import { Heart } from '../../Icons/Heart'
+import { HeartFilled } from '../../Icons/HeartFilled'
 import { Card } from '../Card'
 
 export const CardProduct: React.FC<ICardProduct> = props => {

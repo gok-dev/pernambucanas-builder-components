@@ -1,4 +1,4 @@
-import { ICardMargins } from 'components/Card/types'
+import { ICardMargins } from '../Card/types'
 import {
   DetailedHTMLProps,
   ImgHTMLAttributes,
