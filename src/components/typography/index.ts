@@ -6,6 +6,9 @@ import { Body } from './Body'
 import { Header } from './Header'
 import { Footer } from './Footer'
 import { Navigation } from './Navigation'
+import { Card } from './Card'
+import { CardCategory } from './CardCategory'
+import { CardProduct } from './CardProduct'
 export { Heading } from './Heading'
 export { Text } from './Text'
 export { Title } from './Title'
@@ -23,5 +26,8 @@ export default {
   Body,
   Header,
   Footer,
-  Navigation
+  Navigation,
+  Card,
+  CardCategory,
+  CardProduct
 }

@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> shold render 1`] = `
+.c0 {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  width: 100%;
+  min-height: 100px;
+  padding: 8px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.17);
+}
+
+.c5 {
+  font-size: 34px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.c6 {
+  font-weight: 400;
+  margin-top: 8px;
+  margin-bottom: px;
+  margin-right: px;
+  margin-left: px;
+  font-size: 12px;
+}
+
+.c6 a {
+  color: #2485EA;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.c6 a:hover {
+  color: #1C67B8;
+}
+
+.c6 mark {
+  border-radius: 3px;
+  padding: 3px 4px;
+  font-size: 12px;
+}
+
+.c6 strong {
+  font-size: 12px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c2 {
+  position: relative;
+}
+
+.c2 button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: none;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c2 img {
+  width: 100%;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: 6px;
+  margin-bottom: 8px;
+}
+
+.c3 {
+  padding: 8px;
+}
+
+@media (min-width:460px) {
+  .c4 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .c4 p {
+    margin-left: 6px;
+  }
+}
+
+<article
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <figure
+      class="c2"
+    >
+      <img
+        alt="Ventilador Britânia BVT410 Turbo Preto"
+        src="/assets/product.png"
+        title="Ventilador Britânia BVT410 Turbo Preto"
+        width="220"
+      />
+    </figure>
+    <div
+      class="c3"
+    >
+      <header>
+        <div
+          class="c4"
+        >
+          <h1
+            class="c5"
+            size="18"
+          >
+            R$ 999,00
+          </h1>
+        </div>
+      </header>
+      <p
+        class="c6"
+        size="12"
+      >
+        Produto
+      </p>
+    </div>
+  </div>
+</article>
+`;
